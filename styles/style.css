@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.journey{
+    display: flex;
+   
+   
+}
+.influence{
+   
+}
+button{
+    background-color: rgb(228, 9, 9);
+    border-radius: 10px;
+}
+.influencer{
+    background-image: url(images/design.svg);
+
+}
+.paragraph{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+  
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.section3{
+    margin-left: 30px;
+}
+footer{
+    background-color:lightslategray;
+    text-align: center;
+}
